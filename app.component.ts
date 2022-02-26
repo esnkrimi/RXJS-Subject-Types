@@ -13,14 +13,14 @@ import {
 })
 export class AppComponent {
   subjectBehaviorSubject$ = new BehaviorSubject(5)
-  asincSubject$ = new AsyncSubject()
+  asyncSubject$ = new AsyncSubject()
   subject$ = new Subject()
   replaySubject$ = new ReplaySubject(2)
 
   ngOnInit() {
     this.run('subjectBehaviorSubject', this.subjectBehaviorSubject$)
     this.run('replaySubject', this.replaySubject$)
-    this.run('asincSubject', this.asincSubject$)
+    this.run('asyncSubject', this.asyncSubject$)
     this.run('subject', this.subject$)
   }
 
