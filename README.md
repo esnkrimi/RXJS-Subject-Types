@@ -6,8 +6,8 @@ We compare four types of observalbes and it will show result in console
 Subject - BehaviorSubject - AsyncSubject - ReplaySubject
 
 Result will be : 
-
-    First  : 1
+    subjectBehaviorSubject
+     First  : 1
      First  : 2
      Second  : 2
      First  : 3
