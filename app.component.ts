@@ -18,7 +18,7 @@ export class AppComponent {
   replaySubject$ = new ReplaySubject(2)
 
   ngOnInit() {
-    this.run('subjectBehaviorSubject', this.subjectBehaviorSubject$)
+    this.run('subjectBehavior', this.subjectBehaviorSubject$)
     this.run('replaySubject', this.replaySubject$)
     this.run('asyncSubject', this.asyncSubject$)
     this.run('subject', this.subject$)
