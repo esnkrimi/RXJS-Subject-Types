@@ -23,7 +23,7 @@ Result will be :
      Third  : 2
      Third  : 3
 
-    asincSubject
+    asyncSubject
      First  : 3
      Second  : 3
      Third  : 3
