@@ -7,7 +7,7 @@ Subject - BehaviorSubject - AsyncSubject - ReplaySubject
 
 Result will be : 
 
-    subjectBehaviorSubject
+    subjectBehavior
      First  : 1
      First  : 2
      Second  : 2
